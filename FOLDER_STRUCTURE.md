@@ -1,0 +1,155 @@
+# Mizuki-Theme 仓库文件夹结构
+
+```
+Mizuki-Theme/
+├── .devin/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   └── workflows/
+├── .vscode/
+├── docs/
+│   ├── editor/
+│   ├── image/
+│   └── rule/
+├── public/
+│   ├── assets/
+│   │   ├── anime/
+│   │   ├── css/
+│   │   ├── desktop-banner/
+│   │   ├── font/
+│   │   ├── home/
+│   │   ├── js/
+│   │   ├── mobile-banner/
+│   │   ├── music/
+│   │   │   ├── cover/
+│   │   │   └── url/
+│   │   └── projects/
+│   ├── favicon/
+│   ├── images/
+│   │   ├── albums/
+│   │   │   ├── AcgExample/
+│   │   │   ├── EncryptedExample/
+│   │   │   ├── ExternalExample/
+│   │   │   └── HiddenExample/
+│   │   ├── device/
+│   │   └── diary/
+│   ├── js/
+│   └── pio/
+│       ├── models/
+│       │   └── NOIR/
+│       │       ├── noir/
+│       │       │   └── noir.2048/
+│       │       └── noir.2048/
+│       └── static/
+├── scripts/
+│   └── compress-fonts/
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── atoms/
+│   │   │   ├── Badge/
+│   │   │   ├── Button/
+│   │   │   ├── Chip/
+│   │   │   ├── custom-scrollbar/
+│   │   │   ├── filter-tabs/
+│   │   │   ├── Icon/
+│   │   │   ├── Image/
+│   │   │   ├── Link/
+│   │   │   ├── Loader/
+│   │   │   ├── tag-chip/
+│   │   │   └── typewriter-text/
+│   │   ├── comment/
+│   │   ├── common/
+│   │   ├── control/
+│   │   │   └── PageProgressBar/
+│   │   ├── features/
+│   │   │   ├── albums/
+│   │   │   ├── anime/
+│   │   │   ├── archive/
+│   │   │   ├── auth/
+│   │   │   ├── devices/
+│   │   │   ├── diary/
+│   │   │   ├── featured-projects/
+│   │   │   ├── friends/
+│   │   │   ├── page-header/
+│   │   │   ├── pio/
+│   │   │   ├── posts/
+│   │   │   │   └── atoms/
+│   │   │   ├── projects/
+│   │   │   ├── projects-category/
+│   │   │   ├── section-title/
+│   │   │   ├── settings/
+│   │   │   ├── skills/
+│   │   │   ├── stats/
+│   │   │   ├── stats-grid/
+│   │   │   ├── tech-stack/
+│   │   │   ├── timeline/
+│   │   │   └── toc/
+│   │   │       ├── components/
+│   │   │       ├── hooks/
+│   │   │       ├── types/
+│   │   │       └── utils/
+│   │   ├── layout/
+│   │   ├── misc/
+│   │   │   ├── poster/
+│   │   │   └── utils/
+│   │   ├── organisms/
+│   │   │   ├── footer/
+│   │   │   └── navigation/
+│   │   └── widgets/
+│   │       ├── announcement/
+│   │       ├── calendar/
+│   │       │   ├── components/
+│   │       │   ├── hooks/
+│   │       │   ├── types/
+│   │       │   └── utils/
+│   │       ├── card-toc/
+│   │       ├── categories/
+│   │       ├── common/
+│   │       ├── feed/
+│   │       ├── music-player/
+│   │       │   ├── atoms/
+│   │       │   ├── hooks/
+│   │       │   ├── molecules/
+│   │       │   └── organisms/
+│   │       ├── music-sidebar/
+│   │       │   ├── components/
+│   │       │   └── hooks/
+│   │       ├── profile/
+│   │       ├── sidebar/
+│   │       ├── site-stats/
+│   │       ├── tags/
+│   │       └── toc/
+│   ├── config/
+│   ├── constants/
+│   ├── content/
+│   │   ├── posts/
+│   │   │   └── guide/
+│   │   └── spec/
+│   ├── data/
+│   ├── i18n/
+│   │   └── languages/
+│   ├── layouts/
+│   │   └── partials/
+│   ├── pages/
+│   │   ├── albums/
+│   │   │   └── [id]/
+│   │   ├── api/
+│   │   ├── og/
+│   │   └── posts/
+│   ├── plugins/
+│   │   └── expressive-code/
+│   ├── scripts/
+│   │   ├── core/
+│   │   ├── effects/
+│   │   └── handlers/
+│   ├── stores/
+│   ├── styles/
+│   ├── types/
+│   └── utils/
+│       └── types/
+└── tests/
+```
+
+> 注：此结构已排除 `.git/` 和 `node_modules/` 目录。
